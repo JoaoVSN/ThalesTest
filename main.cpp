@@ -1,4 +1,3 @@
-#include <exception>
 #include <iostream>
 #include <cstring>
 #include <dirent.h>
@@ -7,7 +6,7 @@
 
 using namespace std;
 const int TMem = 200;//Memoria de alocação para as váriaveis e pponteiros auxiliares
-const int Segundos = 2;//Contador de tempo
+const int Segundos = 60;//Contador de tempo
 
 DIR *dirA, *dirB;//Abre os diretorios
 
