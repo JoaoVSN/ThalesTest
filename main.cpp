@@ -1,4 +1,4 @@
-#include <sys/types.h>
+
 #include <sys/stat.h>
 #include <iostream>
 #include <cstring>
@@ -7,11 +7,11 @@
 #include <ctime>
 
 using namespace std;
+
 const int TMem = 200;//Memoria de alocação para as váriaveis e ponteiros auxiliares
 const int Segundos = 60;//Contador de tempo
 bool habCont = true;
 bool habData = true;
-
 
 DIR *dirA, *dirB;//Abre os diretorios
 
